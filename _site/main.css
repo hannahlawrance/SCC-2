@@ -3,18 +3,18 @@
   margin:0;
   padding:0;
   box-sizing:border-box;
-  border:2px solid rgb(200,200,200); /*don't forget to comment out border once site is live*/ */
+  /* border:2px solid rgb(200,200,200); /*don't forget to comment out border once site is live*/ */ */
   /* color:grey; /*don't forget to comment out border once site is live*/
 }
 
-img {max-width:100%} /*universal reset 100% stops images being larger than their parent*/
+img {max-width:100%;} /*universal reset 100% stops images being larger than their parent*/
 
 [class*=grid-], [class*=grid_], [class~=grid] {
   margin:0;
 }
 /* --- UNIVERSAL STYLE CSS ---*/
 header, footer, section {
-  padding: 5%;
+  padding: 3%;
   margin: 0;
 
 }
@@ -71,6 +71,19 @@ span {
 .padding-none {
   padding: 0;
 }
+.padding-3 { /*focus padding class*/
+  padding:3%;
+}
+
+.padding-tb-10 {
+  padding-top: 10%; /*tb = top,bottom*/
+  padding-bottom: 10%;
+}
+
+.padding-lr-3 {
+  padding-left:3%; /*lr=left right*/
+  padding-right:3%;
+}
 .left {
   text-align: left;
 }
@@ -79,9 +92,6 @@ span {
 }
 .right {
   text-align: right;
-}
-.padding-3 { /*focus padding class*/
-  padding:3%;
 }
 
 .padded-text {
@@ -130,15 +140,6 @@ header p {
   background-size: cover;
   background-position:center;
 }
-
-
-/*.overlay {
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    bottom: 50%;
-    left: 0%;
-}*/
 .features-bg {
   background-image: url("images/features-background_transparent_2.jpg");
   background-position:center;
@@ -146,11 +147,20 @@ header p {
 
 /* ---- form  ------ */
 
-form input {
+input, select, textarea, label {
     width: 100%;
-    padding:4%;
-    margin-bottom:1%;
-}
+    padding: 3%;
+    display: block;
+    margin-bottom: 1%;
+    -webkit-appearance: none;
+  }
+  select {
+    background-color:white;
+  }
+
+  label {
+    text-align:center;
+  }
 
 /* Features Section */
 .fas {
@@ -169,6 +179,10 @@ form input {
 form {
   padding:5%;
 }
+/* textarea {
+  width:100%;
+  padding:20px;
+} */
 .submit-button {
   -webkit-appearance: none;
   padding:2%;
@@ -186,6 +200,12 @@ form {
       background-color: #4282A0;
       transition:2s;
 }
+.contact-photo {
+  background-image: url("/images/contact-photo-2.jpg");
+  background-position:center;
+  background-size:cover;
+}
+
 /*----------------FOOTER--------------------*/
 
 footer img {
@@ -200,7 +220,7 @@ footer a {
 
 /* Blog post previews on the blog.html page */
 .post-preview h3 {
-  color: pink;
+  color: #4282A0;
   text-align:left;
 }
 
@@ -222,6 +242,9 @@ footer a {
 .side-bar {
   width:40%;
 }
+
+/* MAILCHIMP CSS */
+
 
 /*---------------MEDIA QUERIES-----------*/
 
