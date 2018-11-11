@@ -32,10 +32,10 @@
 
 <header>
   <p class="change-color">
-    <a href="/url"> home</a> |
-    <a href="/url"> book</a> |
-    <a href="/url"> blog</a> |
-    <a href="/url"> contact </a>
+    <a href="/"> home</a> |
+    <a href="/booking"> book</a> |
+    <a href="/blog"> blog</a> |
+    <a href="/contact"> contact </a>
     </p>
 <h1></h1>
 </header>
@@ -43,8 +43,8 @@
 <!----------------- CONTENT GOES HERE ------------------>
 
 <section class="grid padding-3">
-  
-  <div class="main-body">
+
+  <div class="main-body col-9">
     <!-- hash = heading -->
 
 <h1 id="second-blog-post">Second blog post</h1>
@@ -55,9 +55,15 @@
 
   </div>
 
-  <div class="side-bar">
+  <div class="side-bar col-3">
+    <h2> Book Now <h2>
+<form action="https://formspree.io/hello@surfconnectco.com" method="POST">
+  <input type="text" name="name" placeholder="name">
+  <input type="tel" name="phone number" placeholder="phone number">
+  <textarea placeholder="when and where would you like to surf"></textarea>
+    <input type="submit" value="Send" placeholder="hit me up">
+</form>
 
-    SIDEBAR
 
   </div>
 

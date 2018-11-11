@@ -32,10 +32,10 @@
 
 <header>
   <p class="change-color">
-    <a href="/url"> home</a> |
-    <a href="/url"> book</a> |
-    <a href="/url"> blog</a> |
-    <a href="/url"> contact </a>
+    <a href="/"> home</a> |
+    <a href="/booking"> book</a> |
+    <a href="/blog"> blog</a> |
+    <a href="/contact"> contact </a>
     </p>
 <h1>Blog Page</h1>
 </header>
@@ -44,42 +44,55 @@
 
 <section>
   <div class="grid">
-    <h1 class=col-12> Recent posts </h1>
+    <h1 class="col-12"> Recent posts </h1>
+    <div class="col-9 grid">
 
   
   <!--starting loop for posts -->
+  <!-- keepm loop inside main div to keep the column pattern reoccuring -->
+
+    <div class="col-7 blog-loop-picture" style="background-image:url(/images/surf-girl.jpg)">
+    </div>
+    <div class="col-5">
 
     <div class="post-preview col-12">
         <h3> Second Blog Post </h3>
-        <img src="/images/surf-girl.jpg">
         <p> short description of my second blog post </p>
         <p> Hannah Lawrance </p>
         <p class="date"> 09 November 2018 </p>
         <a href="/2018/11/09/My-Second-Blog.html"> Read More </a>
     </div>
-
-
+  </div>
   
   <!--starting loop for posts -->
+  <!-- keepm loop inside main div to keep the column pattern reoccuring -->
+
+    <div class="col-7 blog-loop-picture" style="background-image:url(/images/surf-girl.jpg)">
+    </div>
+    <div class="col-5">
 
     <div class="post-preview col-12">
         <h3> Goofy vs Regular </h3>
-        <img src="">
         <p> Are you goofy? Click to read! </p>
         <p> Hannah Lawrance </p>
         <p class="date"> 08 November 2018 </p>
         <a href="/2018/11/08/Goofy-vs-Regular.html"> Read More </a>
     </div>
-
-
+  </div>
    <!--close with this-->
   </div>
 
-  <div class="sidebar">
+  <div class="sidebar col-3">
+        <h2> Book Now <h2>
+<form action="https://formspree.io/hello@surfconnectco.com" method="POST">
+  <input type="text" name="name" placeholder="name">
+  <input type="tel" name="phone number" placeholder="phone number">
+  <textarea placeholder="when and where would you like to surf"></textarea>
+    <input type="submit" value="Send" placeholder="hit me up">
+</form>
 
   </div>
 
-  
 </section>
 
 <section>

@@ -6,30 +6,32 @@ banner-heading: Blog Page
 
 <section>
   <div class="grid">
-    <h1 class=col-12> Recent posts </h1>
+    <h1 class="col-12"> Recent posts </h1>
+    <div class="col-9 grid">
 
-  {% for post in site.posts %}
+  {% for post in site.posts limit:3  %}
   <!--starting loop for posts -->
+  <!-- keepm loop inside main div to keep the column pattern reoccuring -->
+
+    <div class="col-7 blog-loop-picture" style="background-image:url({{post.featured_image}})">
+    </div>
+    <div class="col-5">
 
     <div class="post-preview col-12">
         <h3> {{post.title}} </h3>
-        <img src="{{post.featured_image}}">
         <p> {{post.description}} </p>
         <p> {{post.author}} </p>
         <p class="date"> {{post.date | date_to_long_string}} </p>
         <a href="{{post.url}}"> Read More </a>
     </div>
-
-
+  </div>
   {% endfor %} <!--close with this-->
   </div>
 
-  <div class="sidebar">
-
+  <div class="sidebar col-3">
+      {% include inquiry-form.html %}
   </div>
 
-  {% for post in site.posts limit:3 %}
-  {% endfor %}
 </section>
 
 {% include mailchimp.html %}

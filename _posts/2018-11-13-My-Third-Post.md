@@ -2,7 +2,7 @@
 layout: post
 title: Third Blog Post
 description: Click to read!
-featured-image: /images/surf-girl.jpg
+featured_image: /images/surf-girl.jpg
 author: Hannah Lawrance
 ---
 <!-- hash = heading -->

@@ -209,6 +209,11 @@ footer a {
 }
 
 
+.blog-loop-picture {
+  background-size: cover;
+    background-position: center;
+}
+
 /* Styles for the individual blog posts which are inside the _posts folder and use the post.html layout */
 .main-body {
   width:60%;
