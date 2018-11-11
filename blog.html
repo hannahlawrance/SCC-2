@@ -1,0 +1,35 @@
+---
+layout: default
+title: Blog Page | Surf Connect Co.
+banner-heading: Blog Page
+---
+
+<section>
+  <div class="grid">
+    <h1 class=col-12> Recent posts </h1>
+
+  {% for post in site.posts %}
+  <!--starting loop for posts -->
+
+    <div class="post-preview col-12">
+        <h3> {{post.title}} </h3>
+        <img src="{{post.featured-image}}">
+        <p> {{post.description}} </p>
+        <p> {{post.author}} </p>
+        <p class="date"> {{post.date | date_to_long_string}} </p>
+        <a href="{{post.url}}"> Read More </a>
+    </div>
+
+
+  {% endfor %} <!--close with this-->
+  </div>
+
+  <div class="sidebar">
+
+  </div>
+
+  {% for post in site.posts limit:3 %}
+  {% endfor %}
+</section>
+
+{% include mailchimp.html %}
