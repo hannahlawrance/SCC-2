@@ -32,13 +32,17 @@
 
 <header class="banner-heading">
   <p class="change-color">
-    <a href="/home"> home</a> |
+    <a href="/index"> home</a> |
     <a href="/about"> about</a> |
     <a href="/booking"> book</a> |
     <a href="/blog"> blog</a> |
     <a href="/contact"> contact </a>
     </p>
-<h1></h1>
+<!-- CONDITION TO SHOW TITLE ON ALL PAGES EXCEPT HOMEPAGE -->
+
+  <h1></h1>
+
+<!-- END CONDITION -- -->
 </header>
 
 <!----------------- CONTENT GOES HERE ------------------>
@@ -106,13 +110,24 @@ Fins are found on the bottom of the board near the tail. The main purpose of fin
   </div>
 
   <div class="side-bar col-3">
-    <h2> Got a question? <h2>
-<form action="https://formspree.io/hello@surfconnectco.com" method="POST">
-  <input type="text" name="name" placeholder="name">
-  <input type="tel" name="phone number" placeholder="+(country code) phone number">
-  <textarea placeholder="what would you like to know?"></textarea>
-    <input type="submit" value="Send" placeholder="hit me up" class="submit-button">
-</form>
+  <!-- WhatsHelp.io widget -->
+<script type="text/javascript">
+    (function () {
+        var options = {
+            facebook: "2219556844967990", // Facebook page ID
+            whatsapp: "+(614)20393335", // WhatsApp number
+            call_to_action: "Got a question?", // Call to action
+            button_color: "#666666", // Color of button
+            position: "right", // Position may be 'right' or 'left'
+            order: "facebook,whatsapp", // Order of buttons
+        };
+        var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+<!-- /WhatsHelp.io widget -->
 
 
   </div>
@@ -129,10 +144,10 @@ Fins are found on the bottom of the board near the tail. The main purpose of fin
 
   <div class="col-3_xs-6 change-color">
     <p>
-      <a href="/url"> home </a>
-      <a href="/url"> book </a>
-      <a href="/url"> blog </a>
-      <a href="/url"> contact </a>
+      <a href="/index"> home </a>
+      <a href="/booking"> book </a>
+      <a href="/blog"> blog </a>
+      <a href="/contact"> contact </a>
     </p>
 
   </div>
@@ -145,5 +160,6 @@ Fins are found on the bottom of the board near the tail. The main purpose of fin
     </p>
   </div>
 </footer>
+<script src="/main.js"> </script>
 </body>
 </html>

@@ -27,13 +27,13 @@ banner-heading: Home Page
     <div class="col-4_xs-12 bump-right">
       <h1 class="right"><span>Why</span> us?</h1>
         <p class="right">
-          <p>We’re local and legit</p>
+          <p>We’re <span>local</span> and <span>legit</span></p>
           <p>Our surf coaches know the water and the conditions. We vet them so you know they’re legit.</p>
 
-          <p>We’re ethical</p>
+          <p>We’re <span>ethical</span></p>
           <p>We believe surf coaches in Bali should get paid properly. You’ll know where your money is going.</p>
 
-          <p>We’re casual and convenient</p>
+          <p>We’re <span>casual</span> and <span>convenient</span></p>
           <p>You surf when you want. Where you want.
           We fit around your travel schedule.</p>
         </p>
@@ -50,38 +50,50 @@ banner-heading: Home Page
 
 <section class="grid center features-bg">
   <div class="col-3_md-6_xs-12">
-    <div>
+    <div class="card">
       <i class="fas fa-water"></i>
-      <h3>Lesson Types</h3>
-      <p>Private</p>
-      <p>Private Group</p>
+      <h3>How it works</h3>
+      <p>
+          <p>Step 1 – Head to the booking page</p>
+          <p>Step 2 – Tell us your level and where you're based</p>
+          <p>Step 4 - Pick how long you want to surf and what day</p>
+          <p>Step 5 - We'll connect you to a freelance instructor</p>
+      </p>
     </div>
   </div>
   <div class="col-3_md-6_xs-12">
-    <i class="fas fa-water"></i>
-    <h3>Prices</h3>
-    <p>One Hour</p>
-    <p>$50</p>
+    <div class="card">
+      <i class="fas fa-water"></i>
+      <h3>Lesson Types</h3>
+      <p>Private | 1-on-1 coaching</p>
+      <p>Private Group | Travelling with your friends or family? Learn to surf together!</p>
+    </div>
+  </div>
+  <div class="col-3_md-6_xs-12">
+    <div class="card">
+      <i class="fas fa-water"></i>
+      <h3>Prices</h3>
+      <p>One Hour | 500k</p>
 
-    <p>Two Hours</p>
-    <p>$65</p>
-    <p>Extras</p>
-    <p>Photographer - $20</p>
+      <p>Two Hours | 650k</p>
+      <p><span>Extras</span></p>
+      <p>+ Photographer | 200k</p>
+      <p>+ Scooter Pick Up | 100k</p>
+
+      <p>*Prices in IDR</p>
+    </div>
   </div>
   <div class="col-3_md-6_xs-12">
-    <i class="fas fa-water"></i>
-    <h3>What's Included</h3>
-    <p>Private surf instructor for your one hour or two hour lesson. You get a board, leg rope and rash-vest.</p>
-  </div>
-  <div class="col-3_md-6_xs-12">
-    <i class="fas fa-water"></i>
-    <h3>How it works</h3>
-    <p>
-        <p>Step 1 – Choose your level</p>
-        <p>Step 2 – Choose your beach</p>
-        <p>Step 3 – Choose your instructor</p>
-        <p>Step 4 - Connect</p>
-    </p>
+    <div class="card">
+      <i class="fas fa-water"></i>
+      <h3>What's Included</h3>
+      <p>- Private surf instructor </p>
+      <p>- Surfboard</p>
+      <p>- Leg rope</p>
+      <p>- Rash-vest</p>
+      <p>- Sunscreen </p>
+      <p>- Bottle of water</p>
+    </div>
   </div>
 </section>
 
@@ -101,14 +113,59 @@ banner-heading: Home Page
 <!-- --- --- --- --- --- --- --- SECTION 4 --- --- --- --- --- --->
 <!--- QUOTE --->
 
-<section class="grid">
+<!-- <section class="grid">
   <div class="col-12 center">
     <h3>"I had so much fun! The instructors are so great and they taught me a lot.""</h3>
   </div>
   <div class="col-12 credit">
     <p><span>- Samantha Kate</span></p>
   </div>
-</section>
+</section> -->
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+ <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade text">
+      <h2>"I booked a lesson for me and my wife and the instructor we had was so good at teaching and helping both of us."</h2>
+      <div class="col-12 credit">
+        <p><span>- Jared W, Bali</span></p>
+      </div>
+  </div>
+
+  <div class="mySlides fade text">
+      <h2>"I really liked that my coach started with theory which we put in place during the lesson and then finished with a review. I got that surf bug!"</h2>
+      <div class="col-12 credit text">
+        <p><span>- Ivan D, Italy</span></p>
+      </div>
+  </div>
+
+  <div class="mySlides fade text">
+      <h2>"Overall I had a super amazing experience. The instructors were experienced, nice and attentive and they helped me catch my first waves!"</h2>
+      <div class="col-12 credit">
+        <p><span>- Kara M, LA</span></p>
+      </div>
+  </div>
+
+  <div class="mySlides fade">
+      <h2>"I wanted a 1-on-1 lesson without having to go through a big school or stay at a camp, so this was perfect for a quick surf lesson on a quick Bali trip."</h2>
+      <div class="col-12 credit">
+        <p><span>- Terry W, Australia</span></p>
+      </div>
+  </div>
+
+ <!-- Next and previous buttons -->
+ <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+ <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+ <span class="dot" onclick="currentSlide(1)"></span>
+ <span class="dot" onclick="currentSlide(2)"></span>
+ <span class="dot" onclick="currentSlide(3)"></span>
+ <span class="dot" onclick="currentSlide(4)"></span>
+</div>
 
 
 <!-- --- --- --- --- --- --- --- SECTION 5 --- --- --- --- --- --->
@@ -128,3 +185,4 @@ banner-heading: Home Page
       </form>
   </div>
 </section>
+  {% include inquiry-form.html %}

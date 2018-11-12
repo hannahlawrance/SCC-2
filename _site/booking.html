@@ -32,18 +32,30 @@
 
 <header class="banner-heading">
   <p class="change-color">
-    <a href="/home"> home</a> |
+    <a href="/index"> home</a> |
     <a href="/about"> about</a> |
     <a href="/booking"> book</a> |
     <a href="/blog"> blog</a> |
     <a href="/contact"> contact </a>
     </p>
-<h1>Booking Page</h1>
+<!-- CONDITION TO SHOW TITLE ON ALL PAGES EXCEPT HOMEPAGE -->
+
+  <h1>Booking Page</h1>
+
+<!-- END CONDITION -- -->
 </header>
 
 <!----------------- CONTENT GOES HERE ------------------>
 
+<!--TYPEFORM TEMPLATE -->
 <section>
+  <div class="typeform-widget" data-url="https://hannahlawrance.typeform.com/to/F28S6e" style="width: 100%; height: 550px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=F28S6e&utm_source=typeform.com-12885612-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+</section>
+
+
+
+
+<!-- <section>
   <h2> Here's how it works </h2>
   <p class="center">Just fill out the form below and we'll connect you with an instructor</P>
 </section>
@@ -64,7 +76,7 @@
 
 
         <!-- Col 2 -->
-        <div class="col-6_sm-12">
+        <!-- <div class="col-6_sm-12">
           <label for="level"> What level are you? </label>
             <select name="level">
               <option value="beginner">Beginner</option>
@@ -91,16 +103,35 @@
           <textarea name="message" id="message" placeholder="I have my own board, I can only surf in the mornings etc..."></textarea>
 
           <input type="submit" value="book me in" class="submit-button" />
-        </div>
+        </div> -->
 
     <!-- These are hidden fields -->
-    <input type="hidden" name="_cc" value="hello@surfconnectco.com" />
+    <!-- <input type="hidden" name="_cc" value="hello@surfconnectco.com" />
     <input type="text" name="_gotcha" style="display:none" />
-  </div></form>
+  </div></form> -->
 
 
 <!-- also don't forget to add gridlex and the fonts in the head! -->
 </section>
+  <!-- WhatsHelp.io widget -->
+<script type="text/javascript">
+    (function () {
+        var options = {
+            facebook: "2219556844967990", // Facebook page ID
+            whatsapp: "+(614)20393335", // WhatsApp number
+            call_to_action: "Got a question?", // Call to action
+            button_color: "#666666", // Color of button
+            position: "right", // Position may be 'right' or 'left'
+            order: "facebook,whatsapp", // Order of buttons
+        };
+        var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+<!-- /WhatsHelp.io widget -->
+
 
 
 <!-- --- --- --- --- --- --- --- FOOTER --- --- --- --- --- --- --->
@@ -112,10 +143,10 @@
 
   <div class="col-3_xs-6 change-color">
     <p>
-      <a href="/url"> home </a>
-      <a href="/url"> book </a>
-      <a href="/url"> blog </a>
-      <a href="/url"> contact </a>
+      <a href="/index"> home </a>
+      <a href="/booking"> book </a>
+      <a href="/blog"> blog </a>
+      <a href="/contact"> contact </a>
     </p>
 
   </div>
@@ -128,5 +159,6 @@
     </p>
   </div>
 </footer>
+<script src="/main.js"> </script>
 </body>
 </html>

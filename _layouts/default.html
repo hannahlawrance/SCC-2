@@ -32,13 +32,17 @@
 
 <header class="banner-heading">
   <p class="change-color">
-    <a href="/home"> home</a> |
+    <a href="/index"> home</a> |
     <a href="/about"> about</a> |
     <a href="/booking"> book</a> |
     <a href="/blog"> blog</a> |
     <a href="/contact"> contact </a>
     </p>
-<h1>{{page.banner-heading}}</h1>
+<!-- CONDITION TO SHOW TITLE ON ALL PAGES EXCEPT HOMEPAGE -->
+{% unless page.title == "Home Page | Surf Connect Co." %}
+  <h1>{{page.banner-heading}}</h1>
+{% endunless %}
+<!-- END CONDITION -- -->
 </header>
 
 <!----------------- CONTENT GOES HERE ------------------>
@@ -54,10 +58,10 @@
 
   <div class="col-3_xs-6 change-color">
     <p>
-      <a href="/url"> home </a>
-      <a href="/url"> book </a>
-      <a href="/url"> blog </a>
-      <a href="/url"> contact </a>
+      <a href="/index"> home </a>
+      <a href="/booking"> book </a>
+      <a href="/blog"> blog </a>
+      <a href="/contact"> contact </a>
     </p>
 
   </div>
@@ -70,5 +74,6 @@
     </p>
   </div>
 </footer>
+<script src="/main.js"> </script>
 </body>
 </html>
