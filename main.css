@@ -160,6 +160,9 @@ header p {
   margin: 2% 0 8%;
 }
 
+.features-bg [class*=col] {
+  padding:1%;
+}
 .features-bg .card {
   background-color: #FCFCFC;
   border: 1px solid #efefef;
@@ -195,6 +198,7 @@ header p {
 /* Hide the images by default */
 .mySlides {
     display: none;
+    min-height: 16VW;
 }
 
 /* Next & previous buttons */
@@ -261,8 +265,8 @@ header p {
 /* ---- form  ------ */
 
 input, select, textarea, label {
-  width: 100%;
-  padding: 3%;
+  width: 60%;
+  padding: 0.9rem;
   display: block;
   margin-bottom: 1%;
   -webkit-appearance: none;
@@ -271,8 +275,13 @@ input, select, textarea, label {
   border: 1px solid #efefef;
   border-radius: 3px;
   }
+.home-form input {
+  width: 80%;
+  margin: 0 auto 0.25rem;
+}
+
   select {
-    background-color:white;
+    background-color: white;
   }
 
   label {
@@ -282,7 +291,19 @@ input, select, textarea, label {
 /* MAILCHIMP FORM */
 .mailchimp {
   background-color: #FCFCFC;
-  margin: 60px;
+}
+
+.mailchimp label {
+  margin: auto;
+  border: none;
+}
+
+.mailchimp input {
+  margin: auto;
+}
+
+.mailchimp .mc-field-group {
+  margin-top: 2%;
 }
 /* Features Section */
 .fas {
@@ -394,6 +415,32 @@ p.date {
   margin: 2rem auto;
 }
 
+/* Blog Pages Nav CSS */
+
+.PageNavigation {
+  font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.PageNavigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+  color: #4282A0;
+}
+
+.PageNavigation .prev, .PageNavigation .next {
+  position: static;
+  font-weight: 400;
+}
+
+.PageNavigation .next {
+  text-align: right;
+}
+
 /* MAILCHIMP CSS */
 
 
@@ -466,5 +513,8 @@ footer {
 }
 .mailchimp {
   margin:0;
+}
+.slideshow-container {
+  padding:3rem;
 }
 }

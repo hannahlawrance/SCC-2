@@ -21,4 +21,21 @@ banner-heading:
 
   </div>
 
+  <!-- <div class="col-12_xs-6 change-color">
+    <p>
+      <a href="/index"> previous </a> |
+      <a href="/booking"> back to blogs </a> |
+      <a href="/blog"> next </a>
+    </p>
+  </div> -->
+
+  <div class="col-12 PageNavigation">
+  {% if page.previous.url %}
+    <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+  {% endif %}
+  {% if page.next.url %}
+    <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+  {% endif %}
+</div>
+
 </section>
