@@ -388,8 +388,8 @@ p.date {
 .blog-button {
   padding: 4% 7%;
   background-color: white;
-  box-shadow: black;
-  border: 1px solid #efefef;
+  color: #4282A0;
+  border: 1px solid #4282A0;
 }
 
 .blog-loop-picture {
