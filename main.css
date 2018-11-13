@@ -443,6 +443,17 @@ p.date {
 
 /* MAILCHIMP CSS */
 
+/* ANIMATIONS */
+
+@keyframes {
+  0% { /*where animation starts*/
+    transform: translate(0)rotate(0)
+  }
+  100% /* where animation finishes */{
+    
+  }
+}
+
 
 /*---------------MEDIA QUERIES-----------*/
 
