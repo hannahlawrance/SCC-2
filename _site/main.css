@@ -83,8 +83,8 @@ img {
   padding-top: 10%; /*tb = top,bottom*/
   padding-bottom: 10%;
 }
-.padding-bot-5 {
-  padding-bottom: 5%;
+.padding-bot-20 {
+  padding-bottom: 20%;
 }
 .padding-10 {
   padding:10%;
@@ -135,8 +135,8 @@ header p {
 /* ------------ BODY ------- */
 
 
-.surf-girl{
-  background-image: url("images/surf-girl.jpg");
+.why-us{
+  background-image: url("images/why-us.jpg");
   background-size:cover;
   background-position:center;
   border-radius: 3px;
@@ -152,7 +152,7 @@ header p {
   border-radius: 3px;
 }
 .features-bg {
-  background-image: url("images/features-background_transparent_2.jpg");
+  background-image: url("images/features-bg.jpg");
   background-position:center;
   padding: 6% 3%;
 }
@@ -346,7 +346,7 @@ form {
   transition:2s;
 }
 .contact-photo {
-  background-image: url("/images/contact-photo-2.jpg");
+  background-image: url("/images/contact-photo.jpg");
   background-position:center;
   background-size:cover;
 }
@@ -450,7 +450,7 @@ p.date {
     transform: translate(0)rotate(0)
   }
   100% /* where animation finishes */{
-    
+
   }
 }
 
@@ -460,7 +460,7 @@ p.date {
 
 /* making surf girl image responsive and column of 12 */
 @media (max-width:576px) {
-  .surf-girl {
+  .why-us {
     min-height:50vw;
   }
 
