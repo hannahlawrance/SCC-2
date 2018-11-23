@@ -8,11 +8,9 @@ featured_image: /uploads/rash-vest-1.jpeg
 author: Hannah Lawrance
 ---
 
-When surfing in Bali you want to stay comfortable and rash free. So we have our top tips for what to wear in warm water conditions.
+Surfing in warm conditions, such as Bali, is by far the most preferred option by most surfers! So clothing requirements are generally very minimal — but not too minimal (heh). The only surf clothing you really need are bathers/board shorts and a rashie if you prefer.
 
-![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQYV2NYtWrVfwAG/gL+NbCogwAAAABJRU5ErkJggg==){: .cms-image-placeholder}![](/uploads/rash-vest.jpeg)
-
-<u><strong>Surfing in Warm Water Conditions</strong></u><br>Surfing in warm conditions is by far the most preferred option by most surfers! So clothing requirements are generally very minimal — but not too minimal (heh). The only surf clothing you really need are bathers/board shorts and a rashie if you prefer.
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQYV2NYtWrVfwAG/gL+NbCogwAAAABJRU5ErkJggg==){: .cms-image-placeholder}![](/uploads/rash-vest.jpeg)<br>&nbsp;
 
 **Boardshorts**<br>“Boardies” help stop you getting rash on your inner thigh from the board and wax. They are generally worn in warm weather conditions over bathers and come in all different lengths, colours and materials. As you are spending a lot of time in the water, boardies are designed to be comfortable, without rubbing, and to be durable, without falling to pieces as salt water can cause material and stitching to deteriorate.
 
