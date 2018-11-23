@@ -5,13 +5,13 @@ description: >-
   You’ve probably heard of the terms “goofy” and “regular” used in many
   different sports including skating, windsurfing, snowboarding, wake boarding,
   and of course, surfing. This terminology is related to your stance.
-featured_image: /uploads/cristian-palmer-355424-unsplash.jpg
+featured_image: /uploads/regular-stance.jpeg
 author: Hannah Lawrance
 ---
 
 <!--base32-c9gq6t9k68pp6eb7e4v78ebb6rw70utrcdh68dkjegvpay38e8v6ewhqd9upgtv5dnu6prbjehq68e3p6tpqguv26tvqactgc9h34rtnehr62rvmd8pp4rbkcmtk4-base32-->
 
-&nbsp;
+ 
 
 You’ve probably heard of the terms “goofy” and “regular” used in many different sports including skating, windsurfing, snowboarding, wake boarding, and of course, surfing. This terminology is related to your stance.
 
@@ -24,7 +24,3 @@ How to find out what stance you are?<br>If you’ve played soccer before, whatev
 Left foot forward is regular, right foot forward is goofy.
 
 Being goofy vs regular won’t affect anything to do with choosing your surfboard or how you surf!
-
-&nbsp;
-
-&nbsp;
