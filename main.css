@@ -128,6 +128,10 @@ img {
 /*---------------- HEADER -----------------------*/
 /* the whole CSS is in header */
 
+.bg-transparent {
+    background-color: rgba(255, 255, 255, 0.52);
+}
+
 header p {
   text-align:right;
 }
