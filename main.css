@@ -400,6 +400,7 @@ p.date {
   background-size: cover;
     background-position: center;
     min-height: 30vh;
+    height:100%;
 }
 
 /* Styles for the individual blog posts which are inside the _posts folder and use the post.html layout */
